@@ -65,7 +65,7 @@ cortex_secret: ""
 # By default, Cortex requires manual steps to configure.
 # You can optionally load a pre-configured mapping and seed data, which makes
 # Cortex immediately usable out of the box.
-cortex_load_seed_data: true
+cortex_load_seed_data: false
 
 # Name of the initial user to create. Note if you are using vouch or LDAP for
 # authentication, you must set this to a valid username in your directory.
