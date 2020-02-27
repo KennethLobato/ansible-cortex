@@ -5,7 +5,7 @@
 cortex_install_repo: true
 
 # Cortex version to lock and install
-cortex_version: 2.1.3
+cortex_version: 3.0.0
 
 # Note that the mappings and seed data are dependent on the schema version.
 # If you are installing a version of Cortex that uses a different index name,
@@ -110,7 +110,6 @@ cortex_packages:
   - python36-pip
   - python36-devel
   - python36-setuptools
-  - ssdeep
   - cortex-{{ cortex_version }}
 
 # Packages that will be installed if the nginx proxy is used.
