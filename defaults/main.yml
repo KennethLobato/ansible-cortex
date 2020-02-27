@@ -99,7 +99,7 @@ cortex_auth_ldap:
 cortex_es:
   index: cortex
   cluster: thehive
-  endpoint: 127.0.0.1:9300
+  endpoint: 127.0.0.1:9200
 
 # Packages that will be installed with Cortex
 cortex_packages:
