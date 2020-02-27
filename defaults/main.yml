@@ -104,8 +104,6 @@ cortex_es:
 # Packages that will be installed with Cortex
 cortex_packages:
   - java-1.8.0-openjdk
-  - python-pip
-  - python-setuptools
   - unzip
   - git
   - python-devel
